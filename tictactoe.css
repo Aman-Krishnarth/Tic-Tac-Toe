@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#575379;
+}
+
+header{
+    background-color: rgb(98 98 134);
+    margin-bottom: 2em;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box{
+    display: grid;
+    grid-template-columns: repeat(3,20vh);
+    grid-template-rows: repeat(3,20vh);
+    font-size: 2em;
+    color: #e1c96b;
+    font-weight: bolder;
+}
+
+#result{
+        font-size: 2rem;
+        text-align: center;
+        width: 75%;
+        margin: auto;
+        color: #d6cde1;
+        font-weight: bold;
+        letter-spacing: 8px;
+}
+
+.btn{
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20vh;
+    cursor: pointer;
+}
+
+#gameName{
+    font-size:3em;
+    display: grid;
+    grid-template-rows: repeat(1,10vh);
+    place-content: center;
+    text-shadow: 3px 2px 5px rgb(184 49 159);
+    padding-top: 15px;
+    font-weight:bolder;
+    color: #d6edff;
+    font-family: 'Kenia', sans-serif;
+}
+
+#reset{
+    border: none;
+    margin: auto;
+    display: block;
+    font-size: 2rem;
+    padding: 0.5em 5em;
+    cursor: pointer;
+    background-color: transparent;
+    color: #211a47;
+    font-size: 2em;
+    font-weight: bolder;
+    border: 7px solid blue;
+    border-radius: 20rem;
+    margin-top: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 18px;
+}
+
+#gameStatus{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
